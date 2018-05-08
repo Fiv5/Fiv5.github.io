@@ -5,7 +5,7 @@ header-img: img/home-bg.jpg
 email: 15168273390@163.com
 description: ""
 keyword: ""
-url: "https://fiv5.github.io"              # your host, for absolute URL
+url: "fiv5.github.io"              # your host, for absolute URL
 baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
@@ -39,7 +39,7 @@ gems: [jekyll-paginate]
 # Markdown settings
 # replace redcarpet to kramdown,
 # although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
-# document: http://jekyllrb.com/docs/configuration/#kramdown
+# document: https://jekyllrb.com/docs/configuration/#kramdown
 markdown: kramdown
 kramdown:
   input: GFM                            # use Github Flavored Markdown !important
@@ -59,10 +59,10 @@ duoshuo_share: false                     # set to false if you want to use Comme
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
+# ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
 # Google Analytics
-ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+# ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+# ga_domain: huangxuan.me
 
 
 
@@ -83,6 +83,6 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 friends: [
     {
         title: "Ambr",
-        href: "http://www.ambr.org/index.html"
+        href: "https://www.ambr.org/index.html"
     }
 ]

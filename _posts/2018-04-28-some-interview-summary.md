@@ -2,7 +2,10 @@
 layout: post
 title: 一些面试题总结(编程题)
 date: 2018-04-28 15:06:00
-tags: [技巧]
+header-mask: 0.3
+tags: 
+    - 面试
+    - javascript
 ---
 
 从四月中旬决定离职, 到现在过去差不多半个月, 这段时间面试了几家公司, 记录一下遇到的一些印象比较深刻的编程题.
@@ -115,4 +118,5 @@ const box = new DragBox(
   document.getElementById('content')
 )
 ```
+
 没什么技巧，按部就班地做就行了。需要注意的点就是箱子拖拽时应该是鼠标按下的状态，当鼠标的松开按键到时候应取消箱子的移动监听事件。
