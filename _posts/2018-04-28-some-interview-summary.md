@@ -120,3 +120,22 @@ const box = new DragBox(
 ```
 
 没什么技巧，按部就班地做就行了。需要注意的点就是箱子拖拽时应该是鼠标按下的状态，当鼠标的松开按键到时候应取消箱子的移动监听事件。
+
+## 请实现一个函数 uniqueInOrder，接收一个由字母或数字组成的字符串，返回一个数组，要求将原字符串中相邻的相同字符缩减为 1 个字符，字母需要区分大小写。例如：
+```js
+uniqueInOrder('AAAABBBCCDAABBB') == ['A', 'B', 'C', 'D', 'A', 'B']
+uniqueInOrder('ABBCcAD')         == ['A', 'B', 'C', 'c', 'A', 'D']
+uniqueInOrder([1,2,2,3,3])       == [1,2,3]
+```
+
+稍微变化了一点的数组去重，要使得连续的字符去重为单个，容易想到通过比对当前游标元素和下一个元素，这里给出一个时间复杂度O(n)的解法
+
+```js
+const uniqueInOrder = (p) => {
+  let arr = typeof p === 'string' ? p.split('') : p
+  return arr.reduce((r, next) => {
+    return r[r.length-1] === next ? r : r.concat(next)
+  }, [])
+}
+```
+
