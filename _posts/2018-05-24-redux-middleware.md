@@ -119,9 +119,9 @@ function ASimpleMiddleware ({getState, dispatch}) => next => action => {
 
 <!-- Link -->
 
-[HOC](https://reactjs.org/docs/higher-order-components.html)
-[react-redux](https://redux.js.org/basics/usage-with-react)
-[react-router](https://reacttraining.com/react-router/)
-[ryf](http://www.ruanyifeng.com/blog/2016/09/redux_tutorial_part_two_async_operations.html)
-[redux-thunk](https://github.com/reduxjs/redux-thunk)
-[middleware](https://redux.js.org/advanced/middleware)
+[HOC]:https://reactjs.org/docs/higher-order-components.html
+[react-redux]:https://redux.js.org/basics/usage-with-react
+[react-router]:https://reacttraining.com/react-router/
+[ryf]:http://www.ruanyifeng.com/blog/2016/09/redux_tutorial_part_two_async_operations.html
+[redux-thunk]:https://github.com/reduxjs/redux-thunk
+[middleware]:https://redux.js.org/advanced/middleware
